@@ -4,16 +4,15 @@
     box-sizing:border-box;
 }
 body{
-    background-color: beige;
+     background-image: url("/back3.jpg");
 }
 .container{
-    /* background-color: #ffffff; */
-    background-color:#e0e9ff;
+    background-color:#c3c4c7;
     width: 90vmin;
     padding: 50px 30px;
     position: absolute;
     transform: translate(-50%, -50%);
-    left: 50%;
+    left: 32%;
     top:50%;
     border-radius: 10px;
     box-shadow:0 25px 50px rgba(7, 20, 35, 0.2);
@@ -80,7 +79,7 @@ input[type="color"]::-moz-color-swatch {
 #text-input{
     padding: 20px;
     border:1px solid #dddddd;
-    padding: 20px;
+    margin-top: 10px;
     height:50vh;
 }
 .active{
